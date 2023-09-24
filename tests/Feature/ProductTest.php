@@ -8,7 +8,7 @@ use App\Models\Product;
 
 class ProductTest extends TestCase
 {
-    use RefreshDatabase; // This trait will ensure your database is fresh before each test.
+    use RefreshDatabase;
 
     public function test_can_retrieve_product()
     {
